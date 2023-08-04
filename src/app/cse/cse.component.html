@@ -1,0 +1,7 @@
+<h2>CSE Branch</h2>
+<ul>
+  <li *ngFor="let student of cseStudents">
+    {{ student.name }}
+    <button (click)="viewStudentDetails('cse', student.id)">View</button>
+  </li>
+</ul>
